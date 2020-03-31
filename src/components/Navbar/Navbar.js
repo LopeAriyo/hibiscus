@@ -45,9 +45,8 @@ const navbar = props => (
                     </li>
                 </ul>
             </div>
-            <div className="navbar-spacer"></div>
-            <div>
-                <HamburgerIcon />
+            <div className="navbar-hamburger">
+                <HamburgerIcon handleClick={props.handleHamburgerClick} />
             </div>
         </nav>
     </header>

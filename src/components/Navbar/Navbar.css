@@ -80,3 +80,15 @@
     color: #393101;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .navbar-options {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-hamburger {
+        display: none;
+    }
+}

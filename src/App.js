@@ -3,12 +3,32 @@ import Navbar from "./components/Navbar/Navbar";
 import SideNavbar from "./components/SideNavbar/SideNavbar";
 import Backdrop from "./components/Backdrop/Backdrop";
 class App extends Component {
+    state = {
+        sideNavigationVisible: false
+    };
+
+    handleHamburgerClick = () => {
+        this.setState(prevState => {
+            return { sideNavigationVisible: !prevState.sideNavigationVisible };
+        });
+    };
+
+    handleBackDropClick = () => {
+        this.setState({ sideNavigationVisible: false });
+    };
+
     render() {
+        let backdrop;
+
+        if (this.state.sideNavigationVisible) {
+            backdrop = <Backdrop handleClick={this.handleBackDropClick} />;
+        }
+
         return (
             <div style={{ height: "100%" }}>
-                <Navbar />
-                <SideNavbar />
-                <Backdrop />
+                <Navbar handleHamburgerClick={this.handleHamburgerClick} />
+                <SideNavbar visible={this.state.sideNavigationVisible} />
+                {backdrop}
                 <main style={{ marginTop: "75px" }}>
                     <h4>
                         Hibiscus: Discover Fresh Flavours from West Africa with

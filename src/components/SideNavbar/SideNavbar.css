@@ -1,6 +1,4 @@
 .side-navbar-navigation {
-    display: flex;
-    flex-direction: column;
     top: 0;
     right: 0;
     height: 100%;
@@ -10,4 +8,36 @@
     box-shadow: 5px 0px 2px rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 200;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-out;
+}
+
+.side-navbar-navigation .open {
+    transform: translateX(-100%);
+}
+
+.side-navbar-options ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-navbar-options a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.side-navbar-options li {
+    margin: 0.5rem 2rem;
+}
+
+@media (min-width: 769px) {
+    .side-navbar-navigation {
+        display: none;
+    }
 }
