@@ -6,7 +6,7 @@ const navbar = props => (
     <header className="navbar">
         <nav className="navbar-navigation">
             <div className="navbar-logo">
-                <a href="www.lopeariyo.com"> LOPE ARIYO </a>
+                <a href="www.lopeariyo.com"> Lopè Ariyo </a>
             </div>
             <div className="navbar-spacer"></div>
             <div className="navbar-options">

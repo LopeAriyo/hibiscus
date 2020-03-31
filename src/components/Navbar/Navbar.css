@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 60px;
-    background-color: #0463a6;
+    background-color: #f2d404;
 }
 
 .navbar-navigation {
@@ -20,13 +20,16 @@
 }
 
 .navbar-logo a {
-    color: #ffffff;
+    color: #0463a6;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.25rem;
+    font-family: "Libre Baskerville", serif;
 }
 
 .navbar-options ul li a {
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     margin: 0 10px;
     position: relative;
@@ -41,7 +44,7 @@
     width: 0%;
     content: ".";
     color: transparent;
-    background: #aaa;
+    background: #0463a6;
     height: 2px;
 }
 
@@ -67,17 +70,18 @@
 }
 
 .navbar-options a {
-    color: #ffffff;
+    color: #af3021;
     text-decoration: none;
+    padding-bottom: 5px;
 }
 
 .navbar-options a:hover {
-    color: #ab3a35;
+    color: #0463a6;
     text-decoration: none;
 }
 
 .navbar-options a:active {
-    color: #393101;
+    color: #0463a6;
     text-decoration: none;
 }
 
