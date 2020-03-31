@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import HamburgerIcon from "../SideNavbar/HamburgerIcon";
 
 const navbar = props => (
     <header className="navbar">
@@ -40,11 +41,14 @@ const navbar = props => (
                     </li>
                     <li>
                         {" "}
-                        <a href="/">About</a>
+                        <a href="/">About</a>{" "}
                     </li>
                 </ul>
             </div>
-            <div></div>
+            <div className="navbar-spacer"></div>
+            <div>
+                <HamburgerIcon />
+            </div>
         </nav>
     </header>
 );

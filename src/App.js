@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
+import SideNavbar from "./components/SideNavbar/SideNavbar";
+import Backdrop from "./components/Backdrop/Backdrop";
 class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div style={{ height: "100%" }}>
                 <Navbar />
+                <SideNavbar />
+                <Backdrop />
                 <main style={{ marginTop: "75px" }}>
                     <h4>
                         Hibiscus: Discover Fresh Flavours from West Africa with

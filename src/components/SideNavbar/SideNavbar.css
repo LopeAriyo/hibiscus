@@ -1,52 +1,13 @@
-.navbar {
-    position: fixed;
+.side-navbar-navigation {
+    display: flex;
+    flex-direction: column;
     top: 0;
-    left: 0;
-    width: 100vw;
-    height: 60px;
-    background-color: #0463a6;
-}
-
-.navbar-navigation {
-    display: flex;
-    flex-direction: row;
+    right: 0;
     height: 100%;
-    align-items: center;
-    padding: 0 1rem;
-}
-
-.navbar-spacer {
-    flex: 1;
-}
-
-.navbar-logo a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 2rem;
-}
-
-.navbar-options ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar-options li {
-    padding: 0 0.5rem;
-}
-
-.navbar-options a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.navbar-options a:hover {
-    color: #ab3a35;
-    text-decoration: none;
-}
-
-.navbar-options a:active {
-    color: #393101;
-    text-decoration: none;
+    width: 70%;
+    max-width: 400px;
+    background-color: red;
+    box-shadow: 5px 0px 2px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 200;
 }

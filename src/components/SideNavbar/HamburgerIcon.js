@@ -1,5 +1,13 @@
 import React from "react";
 
-const hamburgerIcon = props => ();
+import "./HamburgerIcon.css";
 
-export default hamburgerIcon
+const hamburgerIcon = props => (
+    <button className="hamburger-icon">
+        <div className="hamburger-line" />
+        <div className="hamburger-line" />
+        <div className="hamburger-line" />
+    </button>
+);
+
+export default hamburgerIcon;

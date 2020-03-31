@@ -25,6 +25,36 @@
     font-size: 2rem;
 }
 
+.navbar-options ul li a {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 10px;
+    position: relative;
+}
+
+.navbar-options ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #aaa;
+    height: 2px;
+}
+
+.navbar-options ul li a:hover:after {
+    width: 100%;
+}
+
+.navbar-options ul li a,
+.navbar-options ul li a:after,
+.navbar-options ul li a:before {
+    transition: all 0.5s;
+}
+
 .navbar-options ul {
     list-style: none;
     margin: 0;

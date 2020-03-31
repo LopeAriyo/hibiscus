@@ -1,0 +1,22 @@
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger-icon:focus {
+    outline: none;
+}
+
+.hamburger-line {
+    width: 36px;
+    height: 2px;
+    background: white;
+}
