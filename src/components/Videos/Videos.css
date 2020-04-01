@@ -1,0 +1,7 @@
+.videos-card {
+    width: 100%;
+    display: flex;
+    background-color: #1a8dc5;
+    background-image: url(../../assets/backgrounds/yellow_bg_petals.jpg);
+    background-size: cover;
+}

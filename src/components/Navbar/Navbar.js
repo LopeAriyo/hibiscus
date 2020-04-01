@@ -23,6 +23,14 @@ const navbar = props => (
                     </li>
                     <li>
                         {" "}
+                        <a href="/">About</a>{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        <a href="/">Videos</a>{" "}
+                    </li>
+                    <li>
+                        {" "}
                         <a href="/">Gallery</a>{" "}
                     </li>
                     <li>
@@ -31,11 +39,7 @@ const navbar = props => (
                     </li>
                     <li>
                         {" "}
-                        <a href="/">Enquiries</a>{" "}
-                    </li>
-                    <li>
-                        {" "}
-                        <a href="/">About</a>{" "}
+                        <a href="/">Contact</a>{" "}
                     </li>
                 </ul>
             </div>

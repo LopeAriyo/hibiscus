@@ -17,11 +17,11 @@ const sideNav = props => {
                     </li>
                     <li>
                         {" "}
-                        <a href="/">Recipes</a>{" "}
+                        <a href="/">About</a>{" "}
                     </li>
                     <li>
                         {" "}
-                        <a href="/">Reviews</a>{" "}
+                        <a href="/">Videos</a>{" "}
                     </li>
                     <li>
                         {" "}
@@ -29,19 +29,11 @@ const sideNav = props => {
                     </li>
                     <li>
                         {" "}
-                        <a href="/">Events</a>{" "}
-                    </li>
-                    <li>
-                        {" "}
                         <a href="/">Press</a>{" "}
                     </li>
                     <li>
                         {" "}
-                        <a href="/">Enquiries</a>{" "}
-                    </li>
-                    <li>
-                        {" "}
-                        <a href="/">About</a>
+                        <a href="/">Contact</a>{" "}
                     </li>
                 </ul>
             </div>

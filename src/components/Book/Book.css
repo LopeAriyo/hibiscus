@@ -132,6 +132,7 @@
 @media (min-width: 769px) {
     .book-card {
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .book-jacket {
@@ -139,7 +140,10 @@
     }
 
     .book-description {
+        display: flex;
+        flex-direction: column;
         margin-right: 40px;
+        width: 800px;
     }
 
     .book-description button {

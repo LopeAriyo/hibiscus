@@ -10,6 +10,10 @@ const gallery = () => (
             {" "}
             <Gallery photos={photos} direction={"column"} />{" "}
         </div>
+        <div>
+            {" "}
+            <p>All Images by Ellis Parrinder</p>
+        </div>
     </div>
 );
 
