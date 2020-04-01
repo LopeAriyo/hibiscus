@@ -1,19 +1,21 @@
 .book-card {
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0px;
     display: flex;
-    background-color: #0494d9;
-    background-image: url(./blue_background.png);
+    background-color: #1a8dc5;
+    background-image: url(../../assets/backgrounds/blue_background.png);
     background-size: cover;
 }
 
 .book-jacket {
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
 }
 
 .book-jacket img {
     width: 415px;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
 }
 
 .book-description {
@@ -45,7 +47,7 @@
 
 .book-blurb p {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 0;
     margin: 0;
     text-align: justify;
@@ -53,8 +55,11 @@
 
 .book-description button {
     position: relative;
-    display: inline-block;
-    padding: 25px 60px 25px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 5px 20px 5px;
     margin: 15px 15px;
     border: none;
     border-radius: 10px;
@@ -62,7 +67,7 @@
     color: #ffffff;
     font-family: inherit;
     font-size: inherit;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -72,9 +77,24 @@
     transition: all 0.3s;
 }
 
+.book-description button:hover {
+    border: none;
+    border-radius: 10px;
+    background: #92281c;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 .purchase-buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -91,7 +111,7 @@
 
 @media (min-width: 421px) {
     .book-description button {
-        width: 60%;
+        width: 45%;
     }
 }
 
@@ -107,17 +127,22 @@
     .book-title h3 {
         text-align: center;
     }
-
-    .purchase-buttons {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
 }
 
 @media (min-width: 769px) {
     .book-card {
         flex-direction: row;
+    }
+
+    .book-jacket {
+        margin-left: 40px;
+    }
+
+    .book-description {
+        margin-right: 40px;
+    }
+
+    .book-description button {
+        width: 35%;
     }
 }

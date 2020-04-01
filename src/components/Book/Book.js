@@ -31,8 +31,13 @@ const book = props => (
                 </p>
             </div>
             <div className="purchase-buttons">
-                <button>Buy on Amazon UK </button>
-                <button>Buy on Amazon US </button>
+                <button>
+                    <i className="fab fa-amazon"></i>
+                    Buy on Amazon UK
+                </button>
+                <button>
+                    <i className="fab fa-amazon"></i> Buy on Amazon US
+                </button>
             </div>
         </div>
     </div>
