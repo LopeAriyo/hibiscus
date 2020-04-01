@@ -18,6 +18,16 @@ const book = props => (
             </div>
             <div className="book-blurb">
                 <p>
+                    Hibiscus is the debut cookbook from Lope Ariyo, publish June
+                    1st 2017. As an energetic and supremely talented cook,
+                    Hibiscus contains fresh, fuss-free meals that are full of
+                    flavour. With chapters including Fruits, Vegetables &
+                    Tubers; Grains & Pulses; Meat & Poultry and Baking &
+                    Desserts, there’s something for every occasion and for
+                    everyone.
+                </p>
+                <br />
+                <p>
                     Nigerian-inspired flavours and cooking methods can transform
                     everyday dishes into something spectacular. Whether it’s
                     experimenting with new ingredients (Hibiscus Chicken),

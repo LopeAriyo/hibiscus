@@ -27,10 +27,6 @@ const navbar = props => (
                     </li>
                     <li>
                         {" "}
-                        <a href="/">Recipes</a>{" "}
-                    </li>
-                    <li>
-                        {" "}
                         <a href="/">Press</a>{" "}
                     </li>
                     <li>

@@ -41,8 +41,8 @@ export const photos = [
     },
     {
         src: CoconutFriedRice,
-        width: 4,
-        height: 3
+        width: 3,
+        height: 2
     },
 
     {

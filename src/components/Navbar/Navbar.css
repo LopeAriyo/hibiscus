@@ -5,6 +5,7 @@
     width: 100vw;
     height: 80px;
     background-color: #f2d404;
+    z-index: 50;
 }
 
 .navbar-navigation {
