@@ -1,0 +1,123 @@
+.book-card {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    background-color: #0494d9;
+    background-image: url(./blue_background.png);
+    background-size: cover;
+}
+
+.book-jacket {
+    margin: 10px;
+    padding: 10px;
+}
+
+.book-jacket img {
+    width: 415px;
+}
+
+.book-description {
+    margin: 10px;
+    padding: 10px;
+    max-width: 80%;
+    color: #ffffff;
+}
+
+.book-title h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.book-title h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.book-blurb {
+    padding-top: 10px;
+}
+
+.book-blurb p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.book-description button {
+    position: relative;
+    display: inline-block;
+    padding: 25px 60px 25px 120px;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #af3021;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.purchase-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 420px) {
+    .book-jacket img {
+        width: 100%;
+    }
+
+    .book-description button {
+        width: 90%;
+    }
+}
+
+@media (min-width: 421px) {
+    .book-description button {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .book-card {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .book-title h1 {
+        text-align: center;
+    }
+    .book-title h3 {
+        text-align: center;
+    }
+
+    .purchase-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .book-card {
+        flex-direction: row;
+    }
+}

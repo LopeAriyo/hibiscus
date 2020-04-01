@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     font-family: "Roboto Condensed", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 60px;
+    height: 80px;
     background-color: #f2d404;
 }
 
@@ -19,11 +19,32 @@
     flex: 1;
 }
 
-.navbar-logo a {
+.navbar-book-logo {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-book-title a {
     color: #0463a6;
     text-decoration: none;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: "Libre Baskerville", serif;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+.navbar-book-author a {
+    color: #af3021;
+    text-decoration: none;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+    font-family: "Roboto Condensed", sans-serif;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
 }
 
 .navbar-options ul li a {

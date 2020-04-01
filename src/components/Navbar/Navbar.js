@@ -6,14 +6,20 @@ const navbar = props => (
     <header className="navbar">
         <nav className="navbar-navigation">
             <div className="navbar-logo">
-                <a href="www.lopeariyo.com"> Lopè Ariyo </a>
+                <div className="navbar-book-title">
+                    <a href="/"> Hibiscus </a>
+                </div>
+                <div className="navbar-book-author">
+                    <a href="/"> LOPÈ ARIYO </a>
+                </div>
             </div>
+
             <div className="navbar-spacer"></div>
             <div className="navbar-options">
                 <ul>
                     <li>
                         {" "}
-                        <a href="/">Shop</a>{" "}
+                        <a href="/">Book</a>{" "}
                     </li>
                     <li>
                         {" "}

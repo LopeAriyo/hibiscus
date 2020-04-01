@@ -13,7 +13,7 @@ const sideNav = props => {
                 <ul>
                     <li>
                         {" "}
-                        <a href="/">Shop</a>{" "}
+                        <a href="/">Book</a>{" "}
                     </li>
                     <li>
                         {" "}
