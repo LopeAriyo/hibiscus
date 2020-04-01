@@ -39,6 +39,7 @@ class App extends Component {
                     <Book />
                     <About />
                     <Gallery />
+                    <Press />
                 </main>
                 <footer className="footer"></footer>
             </div>
