@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Backdrop from "./components/Backdrop/Backdrop";
 import SideNavbar from "./components/SideNavbar/SideNavbar";
 import Book from "./components/Book/Book";
+import Gallery from "./components/Gallery/Gallery";
 class App extends Component {
     state = {
         sideNavigationVisible: false
@@ -32,6 +33,7 @@ class App extends Component {
                 <SideNavbar visible={this.state.sideNavigationVisible} />
                 <main style={{ marginTop: "80px" }}>
                     <Book />
+                    <Gallery />
                 </main>
                 <footer className="footer"></footer>
             </div>

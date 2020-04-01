@@ -1,0 +1,12 @@
+.gallery-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-grid {
+    width: 90%;
+    padding: 20px;
+}
