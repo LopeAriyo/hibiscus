@@ -1,7 +1,45 @@
-.videos-card {
+.videos-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #1a8dc5;
-    background-image: url(../../assets/backgrounds/yellow_bg_petals.jpg);
+    background-image: url(../../assets/backgrounds/blue_background.png);
     background-size: cover;
+}
+
+.video-card {
+    width: 90%;
+    display: flex;
+    display: column;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.videos-container h1 {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    color: #ffffff;
+}
+
+.video-card .video-js {
+    width: 640px;
+    height: 234px;
+}
+@media (min-width: 421px) and (max-width: 768px) {
+    .video-card .video-js {
+        width: 90%;
+        height: 350px;
+    }
+}
+
+@media (min-width: 769px) {
+    .video-card .video-js {
+        width: 70%;
+        height: 500px;
+    }
 }

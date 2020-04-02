@@ -38,6 +38,7 @@ class App extends Component {
                 <main style={{ marginTop: "80px" }}>
                     <Book />
                     <About />
+                    <Videos />
                     <Gallery />
                     <Press />
                 </main>

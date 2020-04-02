@@ -4,9 +4,21 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    background-color: #f2d404;
 }
 
 .gallery-grid {
     width: 90%;
     padding: 20px;
+}
+
+.gallery-card h1 {
+    color: #0463a6;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.gallery-card p {
+    color: #af3021;
 }
