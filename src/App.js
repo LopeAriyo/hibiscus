@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import Videos from "./components/Videos/Videos";
 import Gallery from "./components/Gallery/Gallery";
 import Press from "./components/Press/Press";
-import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 class App extends Component {
     state = {
         sideNavigationVisible: false

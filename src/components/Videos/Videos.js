@@ -1,14 +1,35 @@
 import React from "react";
-import Video from "./Video";
 import "./Videos.css";
+import Video from "./Video";
 
-const videos = () => (
-    <div className="videos-container">
-        <div className="section-title">
-            <h1>Videos</h1>
-        </div>
-        <Video url="https://www.youtube.com/watch?v=08vLAtwUNKg" />
-    </div>
-);
+class Videos extends React.Component {
+    render() {
+        const videolist = [
+            {
+                title: "Nigerian Coconut Fried Rice",
+                url: "https://www.youtube.com/watch?v=08vLAtwUNKg"
+            },
+            {
+                title: "Lope Ariyo's Chicken Drumsticks",
+                url: "https://www.youtube.com/watch?v=dDIZw82dpQM"
+            },
+            {
+                title: "Peanut Toffee Bars",
+                url: "https://www.youtube.com/watch?v=Kdv7gkUaM_w"
+            }
+        ];
 
-export default videos;
+        return (
+            <div className="videos-container">
+                <div className="section-title">
+                    <h1>Videos</h1>
+                </div>
+                {videolist.map(video => (
+                    <Video url={video.url} />
+                ))}
+            </div>
+        );
+    }
+}
+
+export default Videos;

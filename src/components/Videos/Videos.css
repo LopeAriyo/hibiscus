@@ -27,9 +27,10 @@
 }
 
 .video-card .video-js {
-    width: 640px;
+    width: 100%;
     height: 234px;
 }
+
 @media (min-width: 421px) and (max-width: 768px) {
     .video-card .video-js {
         width: 90%;
