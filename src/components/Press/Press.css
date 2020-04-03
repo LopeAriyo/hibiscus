@@ -23,6 +23,11 @@
     font-family: "Libre Baskerville", serif;
 }
 
+.press-card h2 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+}
+
 .press ul {
     list-style: none;
     margin: 0;

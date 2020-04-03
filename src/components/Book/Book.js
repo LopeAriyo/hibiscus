@@ -1,6 +1,5 @@
 import React from "react";
 import Jacket from "./HibiscusJacket.JPG";
-
 import "./Book.css";
 
 const book = props => (
@@ -40,13 +39,23 @@ const book = props => (
                     offer.
                 </p>
             </div>
+
             <div className="purchase-buttons">
                 <button>
-                    <i className="fab fa-amazon"></i>
-                    Buy on Amazon UK
-                </button>
-                <button>
-                    <i className="fab fa-amazon"></i> Buy on Amazon US
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://smarturl.it/Hibiscus"
+                    >
+                        <i className="fab fa-amazon"></i>
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://smarturl.it/Hibiscus"
+                    >
+                        Buy on Amazon
+                    </a>
                 </button>
             </div>
         </div>

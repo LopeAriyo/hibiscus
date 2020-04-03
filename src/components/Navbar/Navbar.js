@@ -8,10 +8,16 @@ const navbar = props => (
         <nav className="navbar-navigation">
             <div className="navbar-logo">
                 <div className="navbar-book-title">
-                    <a href="/"> Hibiscus </a>
+                    <Link to="/">Hibiscus </Link>
                 </div>
                 <div className="navbar-book-author">
-                    <a href="/"> LOPÈ ARIYO </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://lopeariyo.com"
+                    >
+                        LOPÈ ARIYO
+                    </a>
                 </div>
             </div>
 

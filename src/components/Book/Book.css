@@ -99,6 +99,11 @@
     align-items: center;
 }
 
+.purchase-buttons a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 @media (max-width: 420px) {
     .book-jacket img {
         width: 100%;
