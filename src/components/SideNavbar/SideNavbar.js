@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SideNavbar.css";
 
 const sideNav = props => {
@@ -12,28 +13,22 @@ const sideNav = props => {
             <div className="side-navbar-options">
                 <ul>
                     <li>
-                        {" "}
-                        <a href="/">Book</a>{" "}
+                        <Link to="/">Book </Link>
                     </li>
                     <li>
-                        {" "}
-                        <a href="/">About</a>{" "}
+                        <Link to="/about">About </Link>
                     </li>
                     <li>
-                        {" "}
-                        <a href="/">Videos</a>{" "}
+                        <Link to="/videos">Videos </Link>
                     </li>
                     <li>
-                        {" "}
-                        <a href="/">Gallery</a>{" "}
+                        <Link to="/gallery">Gallery </Link>
                     </li>
                     <li>
-                        {" "}
-                        <a href="/">Press</a>{" "}
+                        <Link to="/press">Press</Link>
                     </li>
                     <li>
-                        {" "}
-                        <a href="/">Contact</a>{" "}
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

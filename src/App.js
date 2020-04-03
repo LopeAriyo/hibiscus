@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Backdrop from "./components/Backdrop/Backdrop";
 import SideNavbar from "./components/SideNavbar/SideNavbar";
@@ -36,12 +37,15 @@ class App extends Component {
                 {backdrop}
                 <SideNavbar visible={this.state.sideNavigationVisible} />
                 <main style={{ marginTop: "80px" }}>
-                    <Book />
-                    <About />
-                    <Videos />
-                    <Gallery />
-                    <Press />
-                    <Contact />
+                    <Switch>
+                        <Route path="/" component={Book} exact />
+                        <Route path="/about" component={About} />
+                        <Route path="/videos" component={Videos} />
+                        <Route path="/gallery" component={Gallery} />
+                        <Route path="/press" component={Press} />
+                        <Route path="/contact" component={Contact} />
+                        <Route render={() => <div>Page Not Found</div>} />
+                    </Switch>
                 </main>
                 <footer className="footer"></footer>
             </div>
